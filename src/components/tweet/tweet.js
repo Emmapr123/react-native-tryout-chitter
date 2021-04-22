@@ -17,18 +17,25 @@ const Tweet = ({
     <Text>{handle}</Text><Text>
   {timeStamp}</Text>
   </View>
-  <Text> {body}</Text></View>
+  <Text style={styles.tweetBody}> {body}</Text></View>
 }
 
 const styles = StyleSheet.create({
   tweet: {
-    borderColor: 'red',
+    backgroundColor: 'lightblue',
+    height: 80,
     borderWidth: 1,
     marginBottom: 8,
   },
   row: {
     flexDirection: 'row',
     justifyContent: 'space-between'
+  },
+  tweetBody: {
+    backgroundColor: 'white',
+    marginTop: 20,
+    marginLeft: 4,
+    marginRight: 4,
   }
 });
 

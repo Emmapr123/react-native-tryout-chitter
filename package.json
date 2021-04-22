@@ -15,10 +15,16 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-cli": "^2.0.1",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "^7.9.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/react-native": "^7.2.0",
+    "detox": "^18.12.0",
+    "react-native-testing-library": "^6.0.0"
   },
   "private": true
 }
